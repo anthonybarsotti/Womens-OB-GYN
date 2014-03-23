@@ -1,0 +1,19 @@
+{
+  "name": "default-bootstrap-sass",
+  "version": "0.0.0",
+  "homepage": "https://github.com/anthonybarsotti/default-bootstrap-sass",
+  "authors": [
+    "Anthony Barsotti <anthonydbarsotti@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.1.1"
+  }
+}
