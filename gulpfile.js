@@ -12,7 +12,6 @@ gulp.task('styles', function() {
 	.pipe(gulp.dest('css'))
 	.pipe(rename({suffix: '.min'}))
 	.pipe(minifycss())
-    .pipe(concat('all.min.css'))
 	.pipe(gulp.dest('dist/css'));
 });
 
