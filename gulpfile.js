@@ -1,5 +1,5 @@
 var gulp = require('gulp'),
-sass = require('gulp-ruby-sass'),
+sass = require('gulp-sass'),
 concat = require('gulp-concat'),
 minifycss = require('gulp-minify-css'),
 rename = require('gulp-rename'),
@@ -15,20 +15,20 @@ gulp.task('styles', function() {
 	.pipe(gulp.dest('dist/css'));
 });
 
-gulp.task('scripts', function() {
-	return gulp.src('javascripts/*.js')
+gulp.task('scripts', function () {
+	return gulp.src('javascripts/script.js')
+	.pipe(uglify({outSourceMap: false}))
 	.pipe(rename({suffix: '.min'}))
-	.pipe(uglify())
 	.pipe(gulp.dest('dist/js'));
 });
 
 gulp.task('watch', function() {
   gulp.watch('stylesheets/**', ['styles']);
-  gulp.watch('javascripts/**', ['scripts']);
   var server = livereload();
   gulp.watch('dist/**').on('change', function(file) {
       server.changed(file.path);
   });
+  gulp.watch('javascripts/script.js', ['scripts']);
 });
 
-gulp.task('default', ['styles', 'scripts', 'watch']);
+gulp.task('default', ['styles', 'watch']);

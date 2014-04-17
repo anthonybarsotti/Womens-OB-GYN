@@ -1,0 +1,240 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0; }
+  body a {
+    text-decoration: none; }
+    body a:hover {
+      text-decoration: none; }
+  body .clear:after {
+    content: "";
+    display: table;
+    clear: both; }
+  body .btn {
+    border-radius: 0;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    opacity: 0.8;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    body .btn:hover {
+      color: #fff;
+      opacity: 1; }
+    body .btn.red {
+      background: #b65837; }
+  body .container-fluid {
+    margin: 0;
+    padding: 0;
+    width: 100%; }
+    body .container-fluid.banner {
+      background: url(../img/girl-on-cliff-banner.jpg) no-repeat center center;
+      height: 793px;
+      position: relative; }
+    body .container-fluid.about {
+      background: rgba(255, 255, 255, 0.65);
+      bottom: 27px;
+      height: 265px;
+      position: absolute; }
+      body .container-fluid.about .col-md-3 {
+        padding: 0; }
+        body .container-fluid.about .col-md-3.block-1 .header {
+          background: url(../img/about-block-1-bg.png); }
+        body .container-fluid.about .col-md-3.block-2 .header {
+          background: url(../img/about-block-2-bg.png); }
+        body .container-fluid.about .col-md-3.block-3 .header {
+          background: url(../img/about-block-3-bg.png); }
+        body .container-fluid.about .col-md-3.block-4 .header {
+          background: url(../img/about-block-4-bg.png); }
+        body .container-fluid.about .col-md-3 .inner {
+          margin: 0 auto;
+          width: 96%; }
+          body .container-fluid.about .col-md-3 .inner .header {
+            height: 4.14286em;
+            margin-left: -1px;
+            position: relative;
+            top: -15px;
+            width: 17.21429em;
+            z-index: 1; }
+            body .container-fluid.about .col-md-3 .inner .header h3 {
+              -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+              box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+              color: #fff;
+              font-size: 1.07143em;
+              font-weight: 100;
+              height: 3.86667em;
+              line-height: 3.86667em;
+              margin: 0 auto;
+              text-align: center;
+              width: 14.06667em; }
+          body .container-fluid.about .col-md-3 .inner .body {
+            background: url(../img/about-block-body-bg.png) repeat-x;
+            height: 15.85714em;
+            margin: 0 auto;
+            position: relative;
+            top: -15px;
+            width: 15.07143em;
+            z-index: 0; }
+    body .container-fluid.pregnancy-care {
+      background: url(../img/pregnancy-care-bg.png);
+      height: 300px; }
+  body .container {
+    margin: 0 auto;
+    padding: 0; }
+    body .container:after {
+      content: "";
+      display: table;
+      clear: both; }
+    body .container.phone {
+      height: 53px;
+      position: relative; }
+      body .container.phone .phone-number {
+        background: url(../img/phone-bg.png);
+        color: #474849;
+        display: inline-block;
+        font-family: "Futura", sans-serif;
+        font-size: 1.64286em;
+        font-weight: 300;
+        height: 2.56522em;
+        line-height: 1.91304em;
+        padding: 0 0.82609em 0 0;
+        position: absolute;
+        right: 6.34783em;
+        text-align: right;
+        text-decoration: none;
+        top: 0;
+        width: 9.56522em;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+        opacity: 0.8;
+        -webkit-backface-visibility: hidden;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        body .container.phone .phone-number:hover {
+          opacity: 1; }
+      body .container.phone .btn {
+        height: 3.14286em;
+        line-height: 3.14286em;
+        padding: 0 1.07143em;
+        position: absolute;
+        right: 0;
+        top: 0; }
+    body .container.nav nav .logo {
+      display: inline-block;
+      float: left;
+      font-family: "Futura", sans-serif;
+      font-size: 2em;
+      margin: 0;
+      text-transform: uppercase; }
+      body .container.nav nav .logo a {
+        background: #e6f2f9;
+        background: rgba(255, 255, 255, 0.8);
+        color: #343434;
+        display: block;
+        font-weight: 400;
+        height: 3.21429em;
+        line-height: 3.21429em;
+        text-align: center;
+        width: 14.07143em;
+        -webkit-transition: background 0.3s;
+        transition: background 0.3s; }
+        body .container.nav nav .logo a:hover {
+          background: rgba(255, 255, 255, 0.95); }
+    body .container.nav nav ul {
+      float: right;
+      margin: 0;
+      padding: 0; }
+      body .container.nav nav ul li {
+        float: left;
+        list-style: none;
+        margin: 0 0 0 2px;
+        padding: 0;
+        text-transform: uppercase; }
+        body .container.nav nav ul li a {
+          background: #e6f2f9;
+          background: rgba(255, 255, 255, 0.8);
+          color: #343434;
+          display: inline-block;
+          height: 6.42857em;
+          line-height: 6.42857em;
+          text-align: center;
+          -webkit-transition: background 0.3s;
+          transition: background 0.3s; }
+          body .container.nav nav ul li a:hover {
+            background: rgba(255, 255, 255, 0.95); }
+          body .container.nav nav ul li a.nav-1 {
+            border-bottom: 0.42857em solid #65838f;
+            width: 6.7em; }
+          body .container.nav nav ul li a.nav-2 {
+            border-bottom: 0.42857em solid #a6b799;
+            width: 7.9em; }
+          body .container.nav nav ul li a.nav-3 {
+            border-bottom: 0.42857em solid #ccc6a5;
+            width: 13.7em; }
+          body .container.nav nav ul li a.nav-4 {
+            border-bottom: 0.42857em solid #b8a075;
+            width: 8.3em; }
+          body .container.nav nav ul li a.nav-5 {
+            border-bottom: 0.42857em solid #8f7759;
+            width: 5.95em; }
+
+.navbar-default {
+  background: transparent;
+  border-radius: 0;
+  border: 0;
+  margin: 0; }
+  .navbar-default .navbar-header {
+    background-color: rgba(255, 255, 255, 0.8); }
+    .navbar-default .navbar-header .navbar-brand {
+      color: #343434;
+      font-family: "Futura", sans-serif;
+      text-transform: uppercase; }
+  .navbar-default .navbar-collapse .navbar-nav {
+    margin: 0 -15px; }
+    .navbar-default .navbar-collapse .navbar-nav li.open a {
+      background-color: rgba(255, 255, 255, 0.8);
+      -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5); }
+      .navbar-default .navbar-collapse .navbar-nav li.open a:hover {
+        background-color: rgba(255, 255, 255, 0.8); }
+    .navbar-default .navbar-collapse .navbar-nav li.open .dropdown-menu {
+      padding: 0; }
+    .navbar-default .navbar-collapse .navbar-nav li.active a {
+      background-color: rgba(255, 255, 255, 0.95); }
+    .navbar-default .navbar-collapse .navbar-nav li a {
+      background-color: rgba(255, 255, 255, 0.8);
+      -webkit-box-shadow: 0 3px 3px black;
+      box-shadow: 0 3px 3px black;
+      color: #555; }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px; } }
+
+@media (max-width: 992px) {
+  body .container-fluid {
+    padding: 0 15px; }
+    body .container-fluid.banner {
+      background-size: cover;
+      height: 500px;
+      padding: 0; }
+  body .container {
+    padding: 0 15px; }
+    body .container.phone {
+      height: 40px; }
+      body .container.phone .phone-number {
+        background-size: cover;
+        font-size: 1.1em;
+        right: 150px;
+        padding: 0 0.8em 0 0; }
+      body .container.phone .btn {
+        height: 2.2em;
+        line-height: 2.2em;
+        right: 0; } }
+
+@media (max-width: 768px) { }
+
+@media (max-width: 480px) {
+  body .container-fluid.banner {
+    height: 350px; } }
