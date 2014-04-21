@@ -22,6 +22,7 @@ body {
     transition: all 0.3s ease; }
     body .btn:hover {
       color: #fff;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
       opacity: 1; }
     body .btn.red {
       background: #b65837; }
@@ -31,9 +32,11 @@ body {
     width: 100%; }
     body .container-fluid.banner {
       background: url(../img/girl-on-cliff-banner.jpg) no-repeat center center;
+      background-size: cover;
       height: 793px;
       position: relative; }
     body .container-fluid.about {
+      background: url(../img/white-65.png);
       background: rgba(255, 255, 255, 0.65);
       bottom: 27px;
       height: 265px;
@@ -44,10 +47,57 @@ body {
           background: url(../img/about-block-1-bg.png); }
         body .container-fluid.about .col-md-3.block-2 .header {
           background: url(../img/about-block-2-bg.png); }
+        body .container-fluid.about .col-md-3.block-2 .inner .body {
+          padding: 0.4em; }
+          body .container-fluid.about .col-md-3.block-2 .inner .body .carousel-control, body .container-fluid.about .col-md-3.block-2 .inner .body .name-container {
+            float: left; }
+          body .container-fluid.about .col-md-3.block-2 .inner .body .carousel-control {
+            font-size: 14px;
+            margin-top: 0.375em;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            opacity: 1;
+            position: static;
+            width: auto; }
+            body .container-fluid.about .col-md-3.block-2 .inner .body .carousel-control:hover {
+              cursor: pointer; }
+            body .container-fluid.about .col-md-3.block-2 .inner .body .carousel-control.left {
+              border-top: 1em solid transparent;
+              border-bottom: 1em solid transparent;
+              border-right: 1em solid rgba(255, 255, 255, 0.6);
+              margin-right: 2px; }
+            body .container-fluid.about .col-md-3.block-2 .inner .body .carousel-control.right {
+              border-top: 1em solid transparent;
+              border-bottom: 1em solid transparent;
+              border-left: 1em solid rgba(255, 255, 255, 0.6);
+              margin-left: 2px; }
+          body .container-fluid.about .col-md-3.block-2 .inner .body .name-container {
+            background: rgba(255, 255, 255, 0.6);
+            color: #191919;
+            font-size: 1.14286em;
+            height: 1.6875em;
+            line-height: 1.6em;
+            margin-top: 0.375em;
+            margin-bottom: 0.64286em;
+            text-align: center;
+            width: 10.375em; }
         body .container-fluid.about .col-md-3.block-3 .header {
           background: url(../img/about-block-3-bg.png); }
+        body .container-fluid.about .col-md-3.block-3 .inner .body p {
+          margin-bottom: 1.2em; }
         body .container-fluid.about .col-md-3.block-4 .header {
           background: url(../img/about-block-4-bg.png); }
+        body .container-fluid.about .col-md-3.block-4 .inner .body {
+          padding: 0; }
+          body .container-fluid.about .col-md-3.block-4 .inner .body .question-block {
+            background: url(../img/white-40.png);
+            background: rgba(255, 255, 255, 0.4);
+            height: 90px;
+            margin-top: 0.71429em;
+            padding: 0.71429em;
+            width: 100%; }
+            body .container-fluid.about .col-md-3.block-4 .inner .body .question-block p {
+              line-height: 1em;
+              margin-bottom: 0.3em; }
         body .container-fluid.about .col-md-3 .inner {
           margin: 0 auto;
           width: 96%; }
@@ -73,13 +123,137 @@ body {
             background: url(../img/about-block-body-bg.png) repeat-x;
             height: 15.85714em;
             margin: 0 auto;
+            padding: 0.71429em;
             position: relative;
             top: -15px;
             width: 15.07143em;
             z-index: 0; }
+            body .container-fluid.about .col-md-3 .inner .body p {
+              color: #191919;
+              line-height: 1em;
+              margin-bottom: 0.57143em; }
+            body .container-fluid.about .col-md-3 .inner .body img {
+              display: block;
+              margin: 0 auto; }
     body .container-fluid.pregnancy-care {
       background: url(../img/pregnancy-care-bg.png);
       height: 300px; }
+      body .container-fluid.pregnancy-care .container {
+        height: 100%; }
+        body .container-fluid.pregnancy-care .container h2, body .container-fluid.pregnancy-care .container h4 {
+          color: #65838f;
+          font-weight: 400;
+          text-transform: uppercase; }
+        body .container-fluid.pregnancy-care .container h2 {
+          margin: 0; }
+        body .container-fluid.pregnancy-care .container h4 {
+          font-size: 1.14286em;
+          margin: 0;
+          -webkit-transition: margin 0.3s ease-in-out;
+          transition: margin 0.3s ease-in-out; }
+        body .container-fluid.pregnancy-care .container .container {
+          margin: 0; }
+          body .container-fluid.pregnancy-care .container .container#pregnancy-care {
+            float: left;
+            position: relative;
+            width: 548px; }
+            body .container-fluid.pregnancy-care .container .container#pregnancy-care h2 {
+              position: absolute;
+              top: 30px; }
+            body .container-fluid.pregnancy-care .container .container#pregnancy-care .col-md-4 {
+              background: rgba(184, 160, 117, 0);
+              height: 100%;
+              padding: 90px 0 0 0;
+              position: relative;
+              -webkit-transition: all 0.3s ease-in-out;
+              transition: all 0.3s ease-in-out;
+              text-align: center;
+              top: 0; }
+              body .container-fluid.pregnancy-care .container .container#pregnancy-care .col-md-4:hover {
+                background: rgba(184, 160, 117, 0.2);
+                padding: 70px 0 0 0; }
+                body .container-fluid.pregnancy-care .container .container#pregnancy-care .col-md-4:hover img {
+                  cursor: pointer;
+                  width: 163px; }
+              body .container-fluid.pregnancy-care .container .container#pregnancy-care .col-md-4 img {
+                height: auto;
+                padding: 1em 0 0 0;
+                -webkit-transition: all 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
+                width: 155px; }
+          body .container-fluid.pregnancy-care .container .container#annual-exam {
+            float: left;
+            background: rgba(184, 160, 117, 0);
+            height: 100%;
+            padding: 80px 0 0 0;
+            position: relative;
+            text-align: center;
+            -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            width: 252px; }
+            body .container-fluid.pregnancy-care .container .container#annual-exam:hover {
+              background: rgba(184, 160, 117, 0.2);
+              padding: 69px 0 0 0; }
+              body .container-fluid.pregnancy-care .container .container#annual-exam:hover img {
+                cursor: pointer;
+                width: 233px; }
+            body .container-fluid.pregnancy-care .container .container#annual-exam img {
+              height: auto;
+              padding: 1em 0 0 0;
+              -webkit-transition: all 0.3s ease-in-out;
+              transition: all 0.3s ease-in-out;
+              width: 210px; }
+          body .container-fluid.pregnancy-care .container .container#menopause {
+            float: left;
+            padding: 90px 0 0 0;
+            text-align: center;
+            -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            width: 200px; }
+            body .container-fluid.pregnancy-care .container .container#menopause:hover {
+              background: rgba(184, 160, 117, 0.2);
+              padding: 70px 0 0 0; }
+              body .container-fluid.pregnancy-care .container .container#menopause:hover img {
+                cursor: pointer;
+                width: 185px; }
+            body .container-fluid.pregnancy-care .container .container#menopause img {
+              height: auto;
+              padding: 1em 0 0 0;
+              -webkit-transition: all 0.3s ease-in-out;
+              transition: all 0.3s ease-in-out;
+              width: 155px; }
+    body .container-fluid.our-promise {
+      background: url(../img/our-promise-bg.png) #96825f repeat-y center center;
+      -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+      height: 246px;
+      padding: 29px 0 6px 0;
+      position: relative; }
+      body .container-fluid.our-promise .col-md-3 {
+        width: 290px; }
+        body .container-fluid.our-promise .col-md-3 img {
+          border: 0.64286em solid #ccc6a5; }
+      body .container-fluid.our-promise .col-md-9 {
+        width: 710px; }
+        body .container-fluid.our-promise .col-md-9 .col-md-12 {
+          background: #eaeaea;
+          border: 0.64286em solid #ccc6a5;
+          color: #5b5b5b;
+          height: 187px;
+          padding: 1.07143em;
+          width: 668px; }
+          body .container-fluid.our-promise .col-md-9 .col-md-12 h2 {
+            margin-top: 0;
+            text-transform: uppercase; }
+      body .container-fluid.our-promise .cutout {
+        background: url(../img/our-promise-cutout.png);
+        bottom: 0;
+        display: block;
+        height: 15px;
+        left: 50%;
+        margin-left: -15px;
+        position: absolute;
+        width: 29px; }
   body .container {
     margin: 0 auto;
     padding: 0; }
@@ -92,6 +266,7 @@ body {
       position: relative; }
       body .container.phone .phone-number {
         background: url(../img/phone-bg.png);
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)";
         color: #474849;
         display: inline-block;
         font-family: "Futura", sans-serif;
@@ -109,9 +284,11 @@ body {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
         opacity: 0.8;
         -webkit-backface-visibility: hidden;
+        zoom: 1;
         -webkit-transition: all 0.3s ease;
         transition: all 0.3s ease; }
         body .container.phone .phone-number:hover {
+          -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
           opacity: 1; }
       body .container.phone .btn {
         height: 3.14286em;
@@ -128,7 +305,7 @@ body {
       margin: 0;
       text-transform: uppercase; }
       body .container.nav nav .logo a {
-        background: #e6f2f9;
+        background: url(../img/white-80.png);
         background: rgba(255, 255, 255, 0.8);
         color: #343434;
         display: block;
@@ -137,9 +314,10 @@ body {
         line-height: 3.21429em;
         text-align: center;
         width: 14.07143em;
-        -webkit-transition: background 0.3s;
-        transition: background 0.3s; }
+        -webkit-transition: background 0.3s ease-in-out;
+        transition: background 0.3s ease-in-out; }
         body .container.nav nav .logo a:hover {
+          background: url(../img/white-95.png);
           background: rgba(255, 255, 255, 0.95); }
     body .container.nav nav ul {
       float: right;
@@ -152,15 +330,15 @@ body {
         padding: 0;
         text-transform: uppercase; }
         body .container.nav nav ul li a {
-          background: #e6f2f9;
+          background: url(../img/white-80.png);
           background: rgba(255, 255, 255, 0.8);
           color: #343434;
           display: inline-block;
           height: 6.42857em;
           line-height: 6.42857em;
           text-align: center;
-          -webkit-transition: background 0.3s;
-          transition: background 0.3s; }
+          -webkit-transition: background 0.3s ease-in-out;
+          transition: background 0.3s ease-in-out; }
           body .container.nav nav ul li a:hover {
             background: rgba(255, 255, 255, 0.95); }
           body .container.nav nav ul li a.nav-1 {
@@ -185,28 +363,71 @@ body {
   border: 0;
   margin: 0; }
   .navbar-default .navbar-header {
-    background-color: rgba(255, 255, 255, 0.8); }
+    background: url(../img/white-80.png);
+    background: rgba(255, 255, 255, 0.8);
+    -webkit-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out; }
+    .navbar-default .navbar-header:hover {
+      background: url(../img/white-95.png);
+      background: rgba(255, 255, 255, 0.95); }
     .navbar-default .navbar-header .navbar-brand {
       color: #343434;
       font-family: "Futura", sans-serif;
+      font-size: 16px;
       text-transform: uppercase; }
+    .navbar-default .navbar-header .navbar-toggle {
+      -webkit-transition: background 0.3s ease-in-out;
+      transition: background 0.3s ease-in-out; }
+      .navbar-default .navbar-header .navbar-toggle:hover, .navbar-default .navbar-header .navbar-toggle:focus {
+        background: url(../img/white-95.png);
+        background: rgba(255, 255, 255, 0.95); }
   .navbar-default .navbar-collapse .navbar-nav {
     margin: 0 -15px; }
     .navbar-default .navbar-collapse .navbar-nav li.open a {
-      background-color: rgba(255, 255, 255, 0.8);
-      -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
-      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5); }
-      .navbar-default .navbar-collapse .navbar-nav li.open a:hover {
-        background-color: rgba(255, 255, 255, 0.8); }
+      background: url(../img/white-95.png);
+      background: rgba(255, 255, 255, 0.95);
+      -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); }
+    .navbar-default .navbar-collapse .navbar-nav li.open + li a {
+      -webkit-box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.3); }
     .navbar-default .navbar-collapse .navbar-nav li.open .dropdown-menu {
       padding: 0; }
+      .navbar-default .navbar-collapse .navbar-nav li.open .dropdown-menu a {
+        background: url(../img/white-80.png);
+        background: rgba(255, 255, 255, 0.8);
+        -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3);
+        color: #555;
+        -webkit-transition: background 0.3s ease-in-out;
+        transition: background 0.3s ease-in-out; }
+        .navbar-default .navbar-collapse .navbar-nav li.open .dropdown-menu a:hover {
+          background: url(../img/white-95.png);
+          background: rgba(255, 255, 255, 0.95); }
     .navbar-default .navbar-collapse .navbar-nav li.active a {
-      background-color: rgba(255, 255, 255, 0.95); }
+      background: url(../img/white-95.png);
+      background: rgba(255, 255, 255, 0.95); }
     .navbar-default .navbar-collapse .navbar-nav li a {
-      background-color: rgba(255, 255, 255, 0.8);
-      -webkit-box-shadow: 0 3px 3px black;
-      box-shadow: 0 3px 3px black;
-      color: #555; }
+      background: url(../img/white-80.png);
+      background: rgba(255, 255, 255, 0.8);
+      -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3);
+      color: #555;
+      -webkit-transition: background 0.3s ease-in-out;
+      transition: background 0.3s ease-in-out; }
+      .navbar-default .navbar-collapse .navbar-nav li a:hover {
+        background: url(../img/white-95.png);
+        background-color: rgba(255, 255, 255, 0.95); }
+      .navbar-default .navbar-collapse .navbar-nav li a.nav-1 {
+        border-left: 0.42857em solid #65838f; }
+      .navbar-default .navbar-collapse .navbar-nav li a.nav-2 {
+        border-left: 0.42857em solid #a6b799; }
+      .navbar-default .navbar-collapse .navbar-nav li a.nav-3 {
+        border-left: 0.42857em solid #ccc6a5; }
+      .navbar-default .navbar-collapse .navbar-nav li a.nav-4 {
+        border-left: 0.42857em solid #b8a075; }
+      .navbar-default .navbar-collapse .navbar-nav li a.nav-5 {
+        border-left: 0.42857em solid #8f7759; }
 
 @media (min-width: 1200px) {
   .container {
