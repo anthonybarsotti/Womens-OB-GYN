@@ -315,6 +315,7 @@ body {
           margin-bottom: 1.5em; }
         body .container-fluid.footer .container .footer-about .footer-subnav {
           margin: 0;
+          overflow: hidden;
           padding: 0; }
           body .container-fluid.footer .container .footer-about .footer-subnav li {
             border-right: 1px solid #3c4d54;
@@ -561,7 +562,8 @@ body {
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF8D9C82', endColorstr='#FF8D9C82', GradientType=1);
       height: auto; }
       body .container-fluid.footer .container .footer-nav-wrap {
-        border-left: none; }
+        border-left: none;
+        margin-top: 1em; }
         body .container-fluid.footer .container .footer-nav-wrap .footer-nav li a {
           margin-bottom: 0;
           padding: 1em 0 1em 1em; }

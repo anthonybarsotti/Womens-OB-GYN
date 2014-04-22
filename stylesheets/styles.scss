@@ -400,6 +400,7 @@ body {
 					}
 					.footer-subnav {
 						margin: 0;
+						overflow: hidden;
 						padding: 0;
 						li {
 							border-right: 1px solid #3c4d54;
@@ -714,6 +715,7 @@ body {
 				.container {
 					.footer-nav-wrap {
 						border-left: none;
+						margin-top: 1em;
 						.footer-nav {
 							li {
 								a {
