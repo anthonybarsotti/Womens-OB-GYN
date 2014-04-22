@@ -223,11 +223,7 @@ body {
               transition: all 0.3s ease-in-out;
               width: 155px; }
     body .container-fluid.our-promise {
-      background: url(../img/our-promise-bg.png) #96825f repeat-y center center;
-      background-image: -webkit-linear-gradient(left, #96825f, #b69e74 50%, #96825f);
-      background-image: linear-gradient(to right, #96825f, #b69e74 50%, #96825f);
-      background-repeat: no-repeat;
-      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF96825F', endColorstr='#FF96825F', GradientType=1);
+      background: url(../img/our-promise-bg.png) #96825f repeat-y center top;
       -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
       height: 246px;
@@ -267,6 +263,7 @@ body {
           height: 83.33333%;
           margin-top: 2em; }
           body .container-fluid.services .container .col-md-4 .circle {
+            background-color: #90a6ad;
             border: 1em solid #cbd6d9;
             border-radius: 100%;
             -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.225);
@@ -274,7 +271,6 @@ body {
             background-image: -webkit-radial-gradient(circle, #a7b9be, #859da5);
             background-image: radial-gradient(circle, #a7b9be, #859da5);
             background-repeat: no-repeat;
-            font-family: "Futura", sans-serif;
             height: 100%;
             margin: 0 auto;
             padding: 44px 0;
@@ -300,18 +296,13 @@ body {
               position: absolute;
               width: 61px; }
     body .container-fluid.footer {
-      background: url(../img/footer-bg.png) #687260 repeat-y center center;
-      background-image: -webkit-linear-gradient(left, #687360, #a6b799 50%, #687360);
-      background-image: linear-gradient(to right, #687360, #a6b799 50%, #687360);
-      background-repeat: no-repeat;
-      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF687360', endColorstr='#FF687360', GradientType=1);
+      background: url(../img/footer-bg.png) #687260 repeat-y center top;
       height: 352px; }
       body .container-fluid.footer .container {
         height: 100%;
         padding: 1.42857em 0 2.35714em 0; }
         body .container-fluid.footer .container .footer-about h4 {
           color: #3c4d54;
-          font-family: "Futura", sans-serif;
           font-size: 1.14286em;
           margin: 1.1875em 0 0.5em 0;
           text-transform: uppercase; }
@@ -347,7 +338,6 @@ body {
             overflow: hidden;
             padding: 0; }
             body .container-fluid.footer .container .footer-nav-wrap .footer-nav li {
-              font-family: "Futura", sans-serif;
               float: left;
               list-style: none;
               margin: 0 2em 0 0;
@@ -365,7 +355,6 @@ body {
                   color: #fff; }
         body .container-fluid.footer .container .copyright {
           color: #7f8778;
-          font-family: "Futura", sans-serif;
           text-transform: uppercase; }
   body .container {
     margin: 0 auto;
@@ -381,7 +370,6 @@ body {
         background: url(../img/phone-bg.png) no-repeat;
         color: #474849;
         display: inline-block;
-        font-family: "Futura", sans-serif;
         font-size: 1.64286em;
         font-weight: 300;
         height: 2.56522em;
@@ -410,7 +398,6 @@ body {
     body .container.nav nav .logo {
       display: inline-block;
       float: left;
-      font-family: "Futura", sans-serif;
       font-size: 2em;
       margin: 0;
       text-transform: uppercase; }
@@ -483,7 +470,6 @@ body {
       background: rgba(255, 255, 255, 0.95); }
     .navbar-default .navbar-header .navbar-brand {
       color: #343434;
-      font-family: "Futura", sans-serif;
       font-size: 16px;
       text-transform: uppercase; }
     .navbar-default .navbar-header .navbar-toggle {
