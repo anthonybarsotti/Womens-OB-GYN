@@ -340,6 +340,7 @@ body {
 					height: 83.33333%;
 					margin-top: 2em;
 					.circle {
+						behavior: url(js/PIE.htc);
 						background-color: #90a6ad;
 						border: 1em solid #cbd6d9;
 						border-radius: 100%;
@@ -522,7 +523,6 @@ body {
 						background: rgba(255,255,255,.8);
 						color: #343434;
 						display: block;
-						font-weight: 400;
 						height: 3.21428571em;
 						line-height: 3.21428571em;
 						text-align: center;
