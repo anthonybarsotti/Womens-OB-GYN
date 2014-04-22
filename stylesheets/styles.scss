@@ -293,8 +293,8 @@ body {
 			}
 		}
 		&.our-promise {
-			background: url(../img/our-promise-bg.png) #96825f repeat-y center center;
-			@include gradient-horizontal-three-colors(#96825f, #b69e74, 50%, #96825f);
+			background: url(../img/our-promise-bg.png) #96825f repeat-y center top;
+			//@include gradient-horizontal-three-colors(#96825f, #b69e74, 50%, #96825f);
 			@include box-shadow(0 2px 5px rgba(0,0,0,.15));
 			height: 246px;
 			padding: 29px 0 6px 0;
@@ -340,6 +340,7 @@ body {
 					height: 83.33333%;
 					margin-top: 2em;
 					.circle {
+						behavior: url(js/PIE.htc);
 						border: 1em solid #cbd6d9;
 						border-radius: 100%;
 						@include box-shadow(0 0 10px rgba(0,0,0,.225));
@@ -377,8 +378,8 @@ body {
 			}
 		}
 		&.footer {
-			background: url(../img/footer-bg.png) #687260 repeat-y center center;
-			@include gradient-horizontal-three-colors(#687360, #a6b799, 50%, #687360);
+			background: url(../img/footer-bg.png) #687260 repeat-y center top;
+			//@include gradient-horizontal-three-colors(#687360, #a6b799, 50%, #687360);
 			height: 352px;
 			.container {
 				height: 100%;
