@@ -708,6 +708,18 @@ body {
 			&.services {
 				height: auto;
 				padding-bottom: 2em;
+				.container {
+					.col-4-md {
+						height: 260px;
+						.circle {
+							border: .7em solid #cbd6d9;
+							width: 87%;
+							.cutout {
+								bottom: -14px;
+							}
+						}
+					}
+				}
 			}
 			&.footer {
 				@include gradient-horizontal-three-colors(#8d9c82, #a6b799, 50%, #8d9c82);
