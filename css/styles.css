@@ -555,12 +555,12 @@ body {
     body .container-fluid.services {
       height: auto;
       padding-bottom: 2em; }
-      body .container-fluid.services .container .col-4-md {
+      body .container-fluid.services .container .col-md-4 {
         height: 260px; }
-        body .container-fluid.services .container .col-4-md .circle {
+        body .container-fluid.services .container .col-md-4 .circle {
           border: 0.7em solid #cbd6d9;
           width: 87%; }
-          body .container-fluid.services .container .col-4-md .circle .cutout {
+          body .container-fluid.services .container .col-md-4 .circle .cutout {
             bottom: -14px; }
     body .container-fluid.footer {
       background-image: -webkit-linear-gradient(left, #8d9c82, #a6b799 50%, #8d9c82);
