@@ -345,7 +345,7 @@ body {
 						border-radius: 100%;
 						@include box-shadow(0 0 10px rgba(0,0,0,.225));
 						@include gradient-radial(#a7b9be, #859da5);
-						font-family: $futura;
+		
 						height: 100%;
 						margin: 0 auto;
 						padding: 44px 0;
@@ -387,7 +387,7 @@ body {
 				.footer-about {
 					h4 {
 						color: #3c4d54;
-						font-family: $futura;
+		
 						font-size: 1.14285714em;
 						margin: 1.1875em 0 .5em 0;
 						text-transform: uppercase;
@@ -433,7 +433,7 @@ body {
 						overflow: hidden;
 						padding: 0;
 						li {
-							font-family: $futura;
+			
 							float: left;
 							list-style: none;
 							margin: 0 2em 0 0;
@@ -455,7 +455,7 @@ body {
 				}
 				.copyright {
 					color: #7f8778;
-					font-family: $futura;
+	
 					text-transform: uppercase;
 				}
 			}
@@ -477,7 +477,7 @@ body {
      			background: url(../img/phone-bg.png) no-repeat;
 				color: #474849;
 				display: inline-block;
-				font-family: $futura;
+
 				font-size: 1.64285714em;
 				font-weight: 300;
 				height: 2.56521739em;
@@ -512,7 +512,7 @@ body {
 				.logo {
 					display: inline-block;
 					float: left;
-					font-family: $futura;
+	
 					font-size: 2em;
 					margin: 0;
 					text-transform: uppercase;
@@ -599,7 +599,6 @@ body {
 		}
 		.navbar-brand {
 			color: #343434;
-			font-family: $futura;
 			font-size: 16px;
 			text-transform: uppercase;
 		}
