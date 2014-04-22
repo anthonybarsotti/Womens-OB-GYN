@@ -16,7 +16,7 @@
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <![endif]-->
+    <![endif]-->
     </head>
     <body>
       <div class="container-fluid banner">
@@ -83,7 +83,7 @@
                   <h3>Our Physicians</h3>
                 </div>
                 <div class="body">
-                  <div class="carousel slide our-physicians-carousels" data-ride="carousel" data-pause="false">
+                  <div id="op-img-carousel" class="carousel slide our-physicians-carousels" data-ride="carousel" data-pause="false">
                     <div class="carousel-inner">
                       <div class="item active">
                         <img src="img/our-physicians-placeholder.png">
@@ -94,13 +94,13 @@
                     </div>
                   </div>
                   <a href=".our-physicians-carousels" class="left carousel-control" data-slide="prev"></a>
-                  <div class="carousel slide our-physicians-carousels name-container" data-ride="carousel" data-pause="false">
+                  <div id="op-name-carousel" class="carousel slide our-physicians-carousels name-container" data-ride="carousel" data-pause="false">
                     <div class="carousel-inner">
                       <div class="item active">
                         <span>First Name, Last Name</span>
                       </div>
                       <div class="item">
-                        <span>First Name, Last Name</span>
+                        <span>Last Name</span>
                       </div>
                     </div>
                   </div>
@@ -167,9 +167,9 @@
           </div>
         </div>
       </div>
-      <div class="container-fluid our-promise hidden-sm hidden-xs">
+      <div class="container-fluid our-promise">
         <div class="container">
-          <div class="col-md-3">
+          <div class="col-md-3 hidden-sm hidden-xs">
             <img src="img/our-promise.png" alt="Our Promise">
           </div>
           <div class="col-md-9">
@@ -181,8 +181,61 @@
           <span class="cutout"></span>
         </div>
       </div>
+      <div class="container-fluid services">
+        <div class="container">
+          <div class="col-md-4">
+            <div class="circle">
+              <h4>Incontinence</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, culpa, a nobis quisquam ex labore cupiditate amet nihil autem rem impedit quae nam laborum aspernatur earum numquam cum eius fuga.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="circle">
+              <h4>Cancer Screenings</h4>
+              <p>Aut, laudantium, maiores iusto ullam modi dolore tempora odio vitae. Molestiae, illo, voluptatum, doloribus ea nostrum reprehenderit iure esse tempora odio dolore a et aspernatur eaque fugit culpa quaerat sunt!</p>
+              <span class="cutout"></span>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="circle">
+              <h4>Becoming a Woman</h4>
+              <p>Illo, asperiores, doloribus, officia est dolor voluptate eos nobis quasi molestias modi fuga numquam alias. Quod, fugiat, eum, architecto maiores odit molestiae veniam fugit nobis magni vero unde accusamus voluptas!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid footer">
+        <div class="container">
+          <div class="col-md-6">
+            <img src="img/saint-agnes-logo.png" alt="Saint Agnes">
+            <div class="footer-about">
+              <h4>In Affiliation With Saint Agnes</h4>
+              <p>For more than 150 years, Saint Agnes Hospital has been dedicated to the art of healing by providing exceptional care to the greater Baltimore area. Built on a strong foundation of excellent medical care and compassion, Saint Agnes is committed to providing the best care for our patients for many years to come.</p>
+              <ul class="footer-subnav">
+                <li><a href="#">About Saint Agnes</a></li>
+                <li><a href="#">Our Mission</a></li>
+                <li><a href="#">Our Leadership</a></li>
+                <li><a href="#">News &amp; Updates</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 footer-nav-wrap">
+            <ul class="footer-nav">
+              <li><a href="#">Physicians</a></li>
+              <li><a href="#">Our Practice</a></li>
+              <li><a href="#">Pregnancy Info</a></li>
+              <li><a href="#">Women's Care</a></li>
+              <li><a href="#">Locations</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-md-offset-6 col-sm-12">
+            <h4 class="copyright">&copy; 2014 Womens OB/GYN Group</h4>
+          </div>
+        </div>
+      </div>
       <script src="js/jquery.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
+      <script src="js/bootstrap-carousel.js"></script>
       <script src="js/script.min.js"></script>
     </body>
     </html>
