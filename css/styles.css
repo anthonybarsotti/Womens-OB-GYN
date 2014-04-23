@@ -10,7 +10,6 @@ body {
     display: table;
     clear: both; }
   body .btn {
-    behavior: url(js/PIE.htc);
     border-radius: 0;
     color: #fff;
     display: inline-block;
@@ -115,7 +114,6 @@ body {
             width: 17.21429em;
             z-index: 1; }
             body .container-fluid.about .col-md-3 .inner .header h3 {
-              behavior: url(js/PIE.htc);
               -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
               box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
               color: #fff;
@@ -154,7 +152,6 @@ body {
         body .container-fluid.pregnancy-care .container h2 {
           margin: 0; }
         body .container-fluid.pregnancy-care .container h4 {
-          behavior: url(js/PIE.htc);
           font-size: 1.14286em;
           margin: 0;
           -webkit-transition: margin 0.3s ease-in-out;
@@ -170,7 +167,6 @@ body {
               top: 30px; }
             body .container-fluid.pregnancy-care .container .container#pregnancy-care .col-md-4 {
               background: rgba(184, 160, 117, 0);
-              behavior: url(js/PIE.htc);
               height: 100%;
               padding: 90px 0 0 0;
               position: relative;
@@ -185,7 +181,6 @@ body {
                   cursor: pointer;
                   width: 163px; }
               body .container-fluid.pregnancy-care .container .container#pregnancy-care .col-md-4 img {
-                behavior: url(js/PIE.htc);
                 height: auto;
                 padding: 1em 0 0 0;
                 -webkit-transition: all 0.3s ease-in-out;
@@ -193,7 +188,6 @@ body {
                 width: 155px; }
           body .container-fluid.pregnancy-care .container .container#annual-exam {
             background: rgba(184, 160, 117, 0);
-            behavior: url(js/PIE.htc);
             float: left;
             height: 100%;
             padding: 80px 0 0 0;
@@ -209,14 +203,12 @@ body {
                 cursor: pointer;
                 width: 233px; }
             body .container-fluid.pregnancy-care .container .container#annual-exam img {
-              behavior: url(js/PIE.htc);
               height: auto;
               padding: 1em 0 0 0;
               -webkit-transition: all 0.3s ease-in-out;
               transition: all 0.3s ease-in-out;
               width: 210px; }
           body .container-fluid.pregnancy-care .container .container#menopause {
-            behavior: url(js/PIE.htc);
             float: left;
             padding: 90px 0 0 0;
             text-align: center;
@@ -230,7 +222,6 @@ body {
                 cursor: pointer;
                 width: 185px; }
             body .container-fluid.pregnancy-care .container .container#menopause img {
-              behavior: url(js/PIE.htc);
               height: auto;
               padding: 1em 0 0 0;
               -webkit-transition: all 0.3s ease-in-out;
@@ -243,7 +234,6 @@ body {
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF96825F', endColorstr='#FF96825F', GradientType=1);
       -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-      behavior: url(js/PIE.htc);
       height: 246px;
       padding: 29px 0 6px 0;
       position: relative; }
@@ -282,9 +272,9 @@ body {
           margin-top: 2em; }
           body .container-fluid.services .container .col-md-4 .circle {
             background-color: #90a6ad;
-            behavior: url(js/PIE.htc);
             border: 1em solid #cbd6d9;
             border-radius: 100%;
+            behavior: url(js/PIE.htc);
             -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.225);
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.225);
             background-image: -webkit-radial-gradient(circle, #a7b9be, #859da5);
@@ -363,7 +353,6 @@ body {
               background-image: linear-gradient(to right, #97a68b, #adbca1 50%, #97a68b);
               background-repeat: no-repeat;
               filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF97A68B', endColorstr='#FF97A68B', GradientType=1);
-              behavior: url(js/PIE.htc);
               color: #fff;
               margin-bottom: 5.71429em; }
               body .container-fluid.content .content-area .row .col-md-4 .container-fluid.sidebar-nav {
@@ -372,7 +361,6 @@ body {
                 background-image: linear-gradient(to right, #788b8c, #99acad 50%, #788b8c);
                 background-repeat: no-repeat;
                 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF788B8C', endColorstr='#FF788B8C', GradientType=1);
-                behavior: url(js/PIE.htc);
                 padding-bottom: 0.85714em; }
                 body .container-fluid.content .content-area .row .col-md-4 .container-fluid.sidebar-nav ul {
                   margin: 0;
@@ -388,7 +376,6 @@ body {
                       margin-bottom: 0; }
                       body .container-fluid.content .content-area .row .col-md-4 .container-fluid.sidebar-nav ul li.current-page a {
                         background: rgba(255, 255, 255, 0);
-                        behavior: url(js/PIE.htc);
                         padding: 1em 0 1em 2.25em;
                         -webkit-transition: background 0.3s ease-in-out;
                         transition: background 0.3s ease-in-out; }
@@ -396,7 +383,6 @@ body {
                           background: rgba(255, 255, 255, 0.1); }
                     body .container-fluid.content .content-area .row .col-md-4 .container-fluid.sidebar-nav ul li a {
                       background: rgba(255, 255, 255, 0);
-                      behavior: url(js/PIE.htc);
                       color: #fff;
                       display: block;
                       padding: 0.625em 0 0.625em 2.25em;
@@ -433,7 +419,6 @@ body {
       background-image: linear-gradient(to right, #687360, #a6b799 50%, #687360);
       background-repeat: no-repeat;
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF687360', endColorstr='#FF687360', GradientType=1);
-      behavior: url(js/PIE.htc);
       height: 352px; }
       body .container-fluid.footer .container {
         height: 100%;
@@ -463,7 +448,6 @@ body {
             body .container-fluid.footer .container .footer-about .footer-subnav li:last-child {
               border-right: none; }
             body .container-fluid.footer .container .footer-about .footer-subnav li a {
-              behavior: url(js/PIE.htc);
               color: #556562;
               padding: 0 0.5em 0 0.5em;
               -webkit-transition: color 0.3s ease-in-out;
@@ -486,7 +470,6 @@ body {
               text-transform: uppercase; }
               body .container-fluid.footer .container .footer-nav-wrap .footer-nav li a {
                 background: url(../img/heart-list-item.png) no-repeat left center;
-                behavior: url(js/PIE.htc);
                 color: #e1e7dc;
                 display: block;
                 margin-bottom: 1.5em;
@@ -511,7 +494,6 @@ body {
       position: relative; }
       body .container.phone .phone-number {
         background: url(../img/phone-bg.png) no-repeat;
-        behavior: url(js/PIE.htc);
         color: #474849;
         display: inline-block;
         font-size: 1.64286em;
@@ -543,7 +525,6 @@ body {
       position: relative;
       z-index: 1; }
       body .container.nav nav .logo {
-        behavior: url(js/PIE.htc);
         -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
         display: inline-block;
@@ -561,7 +542,6 @@ body {
           line-height: 3.21429em;
           text-align: center;
           width: 14.07143em;
-          behavior: url(js/PIE.htc);
           -webkit-transition: background 0.3s ease-in-out;
           transition: background 0.3s ease-in-out; }
           body .container.nav nav .logo a:hover {
@@ -572,7 +552,6 @@ body {
         margin: 0;
         padding: 0; }
         body .container.nav nav ul li {
-          behavior: url(js/PIE.htc);
           -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
           float: left;
@@ -583,7 +562,6 @@ body {
           body .container.nav nav ul li a {
             background: url(../img/white-80.png);
             background: rgba(255, 255, 255, 0.8);
-            behavior: url(js/PIE.htc);
             color: #343434;
             display: inline-block;
             height: 6.42857em;
@@ -618,7 +596,6 @@ body {
   .navbar-default .navbar-header {
     background: url(../img/white-80.png);
     background: rgba(255, 255, 255, 0.8);
-    behavior: url(js/PIE.htc);
     -webkit-transition: background 0.3s ease-in-out;
     transition: background 0.3s ease-in-out; }
     .navbar-default .navbar-header:hover {
@@ -629,7 +606,6 @@ body {
       font-size: 16px;
       text-transform: uppercase; }
     .navbar-default .navbar-header .navbar-toggle {
-      behavior: url(js/PIE.htc);
       -webkit-transition: background 0.3s ease-in-out;
       transition: background 0.3s ease-in-out; }
       .navbar-default .navbar-header .navbar-toggle:hover, .navbar-default .navbar-header .navbar-toggle:focus {
@@ -640,11 +616,9 @@ body {
     .navbar-default .navbar-collapse .navbar-nav li.open a {
       background: url(../img/white-95.png);
       background: rgba(255, 255, 255, 0.95);
-      behavior: url(js/PIE.htc);
       -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); }
     .navbar-default .navbar-collapse .navbar-nav li.open + li a {
-      behavior: url(js/PIE.htc);
       -webkit-box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.3);
       box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.3); }
     .navbar-default .navbar-collapse .navbar-nav li.open .dropdown-menu {
@@ -652,7 +626,6 @@ body {
       .navbar-default .navbar-collapse .navbar-nav li.open .dropdown-menu a {
         background: url(../img/white-80.png);
         background: rgba(255, 255, 255, 0.8);
-        behavior: url(js/PIE.htc);
         -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3);
         box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3);
         color: #555;
@@ -667,7 +640,6 @@ body {
     .navbar-default .navbar-collapse .navbar-nav li a {
       background: url(../img/white-80.png);
       background: rgba(255, 255, 255, 0.8);
-      behavior: url(js/PIE.htc);
       -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3);
       box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3);
       color: #555;
@@ -753,7 +725,6 @@ body {
       background-image: linear-gradient(to right, #8d9c82, #a6b799 50%, #8d9c82);
       background-repeat: no-repeat;
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF8D9C82', endColorstr='#FF8D9C82', GradientType=1);
-      behavior: url(js/PIE.htc);
       height: auto; }
       body .container-fluid.footer .container .footer-nav-wrap {
         border-left: none;
