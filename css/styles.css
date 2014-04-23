@@ -237,13 +237,14 @@ body {
               transition: all 0.3s ease-in-out;
               width: 155px; }
     body .container-fluid.our-promise {
-      behavior: url(js/PIE.htc);
       background-image: -webkit-linear-gradient(left, #96825f, #b69e74 50%, #96825f);
       background-image: linear-gradient(to right, #96825f, #b69e74 50%, #96825f);
       background-repeat: no-repeat;
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF96825F', endColorstr='#FF96825F', GradientType=1);
+      -pie-background: linear-gradient(to right, #96825f, #b69e74 50%, #96825f);
       -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+      behavior: url(js/PIE.htc);
       height: 246px;
       padding: 29px 0 6px 0;
       position: relative; }
@@ -357,22 +358,24 @@ body {
             padding: 0;
             width: 272px; }
             body .container-fluid.content .content-area .row .col-md-4 .container-fluid {
-              behavior: url(js/PIE.htc);
               border-top: 0.35714em solid #788b8c;
               border-bottom: 0.35714em solid #788b8c;
               background-image: -webkit-linear-gradient(left, #97a68b, #adbca1 50%, #97a68b);
               background-image: linear-gradient(to right, #97a68b, #adbca1 50%, #97a68b);
               background-repeat: no-repeat;
               filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF97A68B', endColorstr='#FF97A68B', GradientType=1);
+              -pie-background: linear-gradient(to right, #97a68b, #adbca1 50%, #97a68b);
+              behavior: url(js/PIE.htc);
               color: #fff;
               margin-bottom: 5.71429em; }
               body .container-fluid.content .content-area .row .col-md-4 .container-fluid.sidebar-nav {
-                behavior: url(js/PIE.htc);
                 border-bottom: none;
                 background-image: -webkit-linear-gradient(left, #788b8c, #99acad 50%, #788b8c);
                 background-image: linear-gradient(to right, #788b8c, #99acad 50%, #788b8c);
                 background-repeat: no-repeat;
                 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF788B8C', endColorstr='#FF788B8C', GradientType=1);
+                -pie-background: linear-gradient(to right, #788b8c, #99acad 50%, #788b8c);
+                behavior: url(js/PIE.htc);
                 padding-bottom: 0.85714em; }
                 body .container-fluid.content .content-area .row .col-md-4 .container-fluid.sidebar-nav ul {
                   margin: 0;
@@ -429,11 +432,12 @@ body {
                     body .container-fluid.content .content-area .row .col-md-4 .container-fluid.testimonial p .quote.opening {
                       margin: 0 0.15em 0 -0.5em; }
     body .container-fluid.footer {
-      behavior: url(js/PIE.htc);
       background-image: -webkit-linear-gradient(left, #687360, #a6b799 50%, #687360);
       background-image: linear-gradient(to right, #687360, #a6b799 50%, #687360);
       background-repeat: no-repeat;
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF687360', endColorstr='#FF687360', GradientType=1);
+      -pie-background: linear-gradient(to right, #687360, #a6b799 50%, #687360);
+      behavior: url(js/PIE.htc);
       height: 352px; }
       body .container-fluid.footer .container {
         height: 100%;
@@ -749,11 +753,12 @@ body {
               body .container-fluid.content .content-area .row .col-md-4 .container-fluid:last-child {
                 margin-bottom: 0; }
     body .container-fluid.footer {
-      behavior: url(js/PIE.htc);
       background-image: -webkit-linear-gradient(left, #8d9c82, #a6b799 50%, #8d9c82);
       background-image: linear-gradient(to right, #8d9c82, #a6b799 50%, #8d9c82);
       background-repeat: no-repeat;
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF8D9C82', endColorstr='#FF8D9C82', GradientType=1);
+      -pie-background: linear-gradient(to right, #8d9c82, #a6b799 50%, #8d9c82);
+      behavior: url(js/PIE.htc);
       height: auto; }
       body .container-fluid.footer .container .footer-nav-wrap {
         border-left: none;

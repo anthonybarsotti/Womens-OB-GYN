@@ -308,9 +308,10 @@ body {
 			}
 		}
 		&.our-promise {
-			behavior: url(js/PIE.htc);
 			@include gradient-horizontal-three-colors(#96825f, #b69e74, 50%, #96825f);
+			-pie-background: linear-gradient(to right, #96825f, #b69e74 50%, #96825f);
 			@include box-shadow(0 2px 5px rgba(0,0,0,.15));
+			behavior: url(js/PIE.htc);
 			height: 246px;
 			padding: 29px 0 6px 0;
 			position: relative;
@@ -440,16 +441,18 @@ body {
 						padding: 0;
 						width: 272px;
 						.container-fluid {
-							behavior: url(js/PIE.htc);
 							border-top: 0.35714286em solid #788b8c;
 							border-bottom: 0.35714286em solid #788b8c;
 							@include gradient-horizontal-three-colors(#97a68b, #adbca1, 50%, #97a68b);
+							-pie-background: linear-gradient(to right, #97a68b, #adbca1 50%, #97a68b);
+							behavior: url(js/PIE.htc);
 							color: #fff;
 							margin-bottom: 5.71428571em;
 							&.sidebar-nav {
-								behavior: url(js/PIE.htc);
 								border-bottom: none;
 								@include gradient-horizontal-three-colors(#788b8c, #99acad, 50%, #788b8c);
+								-pie-background: linear-gradient(to right, #788b8c, #99acad 50%, #788b8c);
+								behavior: url(js/PIE.htc);
 								padding-bottom: 0.85714286em;
 								ul {
 									margin: 0;
@@ -525,8 +528,9 @@ body {
 			}
 		}
 		&.footer {
-			behavior: url(js/PIE.htc);
 			@include gradient-horizontal-three-colors(#687360, #a6b799, 50%, #687360);
+			-pie-background: linear-gradient(to right, #687360, #a6b799 50%, #687360);
+			behavior: url(js/PIE.htc);
 			height: 352px;
 			.container {
 				height: 100%;
@@ -936,8 +940,9 @@ body {
 				}
 			}
 			&.footer {
-				behavior: url(js/PIE.htc);
 				@include gradient-horizontal-three-colors(#8d9c82, #a6b799, 50%, #8d9c82);
+				-pie-background: linear-gradient(to right, #8d9c82, #a6b799 50%, #8d9c82);
+				behavior: url(js/PIE.htc);
 				height: auto;
 				.container {
 					.footer-nav-wrap {
