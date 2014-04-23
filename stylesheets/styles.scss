@@ -44,11 +44,17 @@ body {
 		margin: 0;
 		padding: 0;
 		width: 100%;
-		&.banner {
-			background: url(../img/girl-on-cliff-banner.jpg) no-repeat center center;
-			background-size: cover;
-			height: 793px;
+		&.main {
+			min-height: 793px;
 			position: relative;
+			.banner {
+				background: url(../img/girl-on-cliff-banner.jpg) no-repeat center center;
+				background-size: cover;
+				height: 793px;
+				position: absolute;
+				top: 0;
+				z-index: 0;
+			}
 		}
 		&.about {
 			background: url(../img/white-65.png);
@@ -379,9 +385,135 @@ body {
 				}
 			}
 		}
+		&.content {
+			height: 100%;
+			min-height: 100%;
+			margin-top: 3.57142857em;
+			position: relative;
+			.content-bg {
+				background: url(../img/inpage-bg.png);
+				bottom: 0;
+				height: 75.659229%;
+				position: absolute;
+				z-index: 0;
+			}
+			.content-area {
+				display: table;
+				position: relative;
+				z-index: 1;
+				.row {
+					display: table-row;
+					.col-md-8 {
+						background: #faf9f6;
+						display: table-cell;
+						float: none;
+						padding: 2.85714286em 2em 8.64285714em 2em;
+						width: 724px;
+						.page-heading {
+							color: #65838f;
+							margin: 0 0 0.83333333em 0;
+							text-transform: uppercase;
+						}
+						h4 {
+							color: #5b5b5b;
+							margin: 0 0 1.11111111em 0;
+							text-transform: uppercase;
+						}
+						p {
+							font-size: 1.07142857em;
+							margin: 0 0 2.33333333em 0;
+						}
+					}
+					.col-md-4 {
+						background: #d8ded1;
+						display: table-cell;
+						float: none;
+						padding: 0;
+						width: 272px;
+						.container-fluid {
+							border-top: 0.35714286em solid #788b8c;
+							border-bottom: 0.35714286em solid #788b8c;
+							@include gradient-horizontal-three-colors(#97a68b, #adbca1, 50%, #97a68b);
+							color: #fff;
+							margin-bottom: 5.71428571em;
+							&.sidebar-nav {
+								border-bottom: none;
+								@include gradient-horizontal-three-colors(#788b8c, #99acad, 50%, #788b8c);
+								padding-bottom: 0.85714286em;
+								ul {
+									margin: 0;
+									padding: 0;
+									li {
+										font-size: 1.14285714em;
+										list-style: none;
+										margin: 0 0 0.25em 0;
+										padding: 0;
+										text-transform: uppercase;
+										&.current-page {
+											background: #a6b799;
+											margin-bottom: 0;
+											a {
+												background: rgba(255,255,255,0);
+												padding: 1em 0 1em 2.25em;
+												@include transition(background .3s ease-in-out);
+												&:hover {
+													background: rgba(255,255,255,.1);
+												}
+											}
+										}
+										a {
+											background: rgba(255,255,255,0);
+											color: #fff;
+											display: block;
+											padding: 0.625em 0 0.625em 2.25em;
+											@include transition(background .3s ease-in-out);
+											&:hover {
+												background: rgba(255,255,255,.1);
+											}
+										}
+									}
+								}
+							}
+							&.phone-block {
+								padding: 2.42857143em 0 2.42857143em 1.78571429em;
+								h2 {
+									font-size: 2em;
+									margin: 0;
+								}
+								h4 {
+									font-size: 1.14285714em;
+									margin: 0 0 1em 0;
+									text-transform: uppercase;
+								}
+							}
+							&.testimonial {
+								padding: 1.1875em 2em;
+								p {
+									font-size: 1.14285714em;
+									&.patient-name {
+										text-align: right;
+										text-transform: uppercase;
+									}
+									.quote {
+										font-family: 'Helvetica', 'Arial', sans-serif;
+										font-size: 2em;
+										font-weight: 400;
+										line-height: 16px;
+										vertical-align: middle;
+										&.opening {
+											margin: 0 .15em 0 -.5em;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
 		&.footer {
 			background: url(../img/footer-bg.png) #687260 repeat-y center top;
-			//@include gradient-horizontal-three-colors(#687360, #a6b799, 50%, #687360);
+			@include gradient-horizontal-three-colors(#687360, #a6b799, 50%, #687360);
 			height: 352px;
 			.container {
 				height: 100%;
@@ -511,8 +643,11 @@ body {
 			}
 		}
 		&.nav {
+			position: relative;
+			z-index: 1;
 			nav {
 				.logo {
+					@include box-shadow(0 0 5px rgba(0,0,0,.5));
 					display: inline-block;
 					float: left;
 					font-weight: 500;
@@ -540,6 +675,7 @@ body {
 					margin: 0;
 					padding: 0;
 					li {
+						@include box-shadow(0 0 5px rgba(0,0,0,.5));
 						float: left;
 						list-style: none;
 						margin: 0 0 0 2px;
@@ -689,10 +825,12 @@ body {
 	body {
 		.container-fluid {
 			padding: 0 15px;
-			&.banner {
-				background-size: cover;
-				height: 500px;
+			&.main {
+				min-height: 500px;
 				padding: 0;
+				.banner {
+					height: 500px;
+				}
 			}
 			&.our-promise {
 				height: auto;
@@ -716,6 +854,57 @@ body {
 							width: 270px;
 							.cutout {
 								bottom: -14px;
+							}
+						}
+					}
+				}
+			}
+			&.content {
+				margin: 0;
+				padding: 0;
+				.content-bg {
+					height: 86%;
+				}
+				.content-area {
+					display: block;
+					.row {
+						display: block;
+						.col-md-8 {
+							display: block;
+							padding: 2.85714286em 2em 2.85714286em 2em;
+							width: auto;
+						}
+						.col-md-4 {
+							display: block;
+							padding: 2em 0;
+							width: auto;
+							.container-fluid {
+								margin-bottom: 2em;
+								padding: 0;
+								text-align: center;
+								&.sidebar-nav {
+									ul {
+										li {
+											&.current-page {
+												a {
+													padding-left: 0;
+												}
+											}
+											a {
+												padding-left: 0;
+											}
+										}
+									}
+								}
+								&.phone-block {
+									padding-left: 0;
+								}
+								&.testimonial {
+									text-align: left;
+								}
+								&:last-child {
+									margin-bottom: 0;
+								}
 							}
 						}
 					}
@@ -763,8 +952,11 @@ body {
 @media (max-width: $screen-xs-min) {
 	body {
 		.container-fluid {
-			&.banner {
-				height: 350px;
+			&.main  {
+				min-height: 440px;
+				.banner {
+					height: 440px;
+				}
 			}
 			&.services {
 				padding: 0 0 2em 0;
