@@ -21,6 +21,7 @@ body {
 	}
 
 	.btn {
+		behavior: url(js/PIE.htc);
 		border-radius: 0;
 		color: #fff;
 		display: inline-block;
@@ -165,6 +166,7 @@ body {
 						width: 17.2142857em;
 						z-index: 1;
 						h3 {
+							behavior: url(js/PIE.htc);
 							@include box-shadow(0 5px 10px rgba(0,0,0,.5));
 							color: #fff;
 							font-size: 1.07142857em;
@@ -212,6 +214,7 @@ body {
 					margin: 0;
 				}
 				h4 {
+					behavior: url(js/PIE.htc);
 					font-size: 1.14285714em;
 					margin: 0;
 					@include transition(margin .3s ease-in-out);
@@ -228,6 +231,7 @@ body {
 						}
 						.col-md-4 {
 							background: rgba(184,160,117,0);
+							behavior: url(js/PIE.htc);
 							height: 100%;
 							padding: 90px 0 0 0;
 							position: relative;
@@ -243,6 +247,7 @@ body {
 								}
 							}
 							img {
+								behavior: url(js/PIE.htc);
 								height: auto;
 								padding: 1em 0 0 0;
 								@include transition(all .3s ease-in-out);
@@ -251,8 +256,9 @@ body {
 						}
 					}
 					&#annual-exam {
-						float: left;
 						background: rgba(184,160,117,0);
+						behavior: url(js/PIE.htc);
+						float: left;
 						height: 100%;
 						padding: 80px 0 0 0;
 						position: relative;
@@ -268,6 +274,7 @@ body {
 							}
 						}
 						img {
+							behavior: url(js/PIE.htc);
 							height: auto;
 							padding: 1em 0 0 0;
 							@include transition(all .3s ease-in-out);
@@ -275,6 +282,7 @@ body {
 						}
 					}
 					&#menopause {
+						behavior: url(js/PIE.htc);
 						float: left;
 						padding: 90px 0 0 0;
 						text-align: center;
@@ -289,6 +297,7 @@ body {
 							}
 						}
 						img {
+							behavior: url(js/PIE.htc);
 							height: auto;
 							padding: 1em 0 0 0;
 							@include transition(all .3s ease-in-out);
@@ -299,8 +308,8 @@ body {
 			}
 		}
 		&.our-promise {
-			background: url(../img/our-promise-bg.png) #96825f repeat-y center top;
-			//@include gradient-horizontal-three-colors(#96825f, #b69e74, 50%, #96825f);
+			behavior: url(js/PIE.htc);
+			@include gradient-horizontal-three-colors(#96825f, #b69e74, 50%, #96825f);
 			@include box-shadow(0 2px 5px rgba(0,0,0,.15));
 			height: 246px;
 			padding: 29px 0 6px 0;
@@ -346,8 +355,8 @@ body {
 					height: 83.33333%;
 					margin-top: 2em;
 					.circle {
-						behavior: url(js/PIE.htc);
 						background-color: #90a6ad;
+						behavior: url(js/PIE.htc);
 						border: 1em solid #cbd6d9;
 						border-radius: 100%;
 						@include box-shadow(0 0 10px rgba(0,0,0,.225));
@@ -431,12 +440,14 @@ body {
 						padding: 0;
 						width: 272px;
 						.container-fluid {
+							behavior: url(js/PIE.htc);
 							border-top: 0.35714286em solid #788b8c;
 							border-bottom: 0.35714286em solid #788b8c;
 							@include gradient-horizontal-three-colors(#97a68b, #adbca1, 50%, #97a68b);
 							color: #fff;
 							margin-bottom: 5.71428571em;
 							&.sidebar-nav {
+								behavior: url(js/PIE.htc);
 								border-bottom: none;
 								@include gradient-horizontal-three-colors(#788b8c, #99acad, 50%, #788b8c);
 								padding-bottom: 0.85714286em;
@@ -454,6 +465,7 @@ body {
 											margin-bottom: 0;
 											a {
 												background: rgba(255,255,255,0);
+												behavior: url(js/PIE.htc);
 												padding: 1em 0 1em 2.25em;
 												@include transition(background .3s ease-in-out);
 												&:hover {
@@ -463,6 +475,7 @@ body {
 										}
 										a {
 											background: rgba(255,255,255,0);
+											behavior: url(js/PIE.htc);
 											color: #fff;
 											display: block;
 											padding: 0.625em 0 0.625em 2.25em;
@@ -512,7 +525,7 @@ body {
 			}
 		}
 		&.footer {
-			background: url(../img/footer-bg.png) #687260 repeat-y center top;
+			behavior: url(js/PIE.htc);
 			@include gradient-horizontal-three-colors(#687360, #a6b799, 50%, #687360);
 			height: 352px;
 			.container {
@@ -550,6 +563,7 @@ body {
 								border-right: none;
 							}
 							a {
+								behavior: url(js/PIE.htc);
 								color: #556562;
 								padding: 0 .5em 0 .5em;
 								@include transition(color .3s ease-in-out);
@@ -576,6 +590,7 @@ body {
 							text-transform: uppercase;
 							a {
 								background: url(../img/heart-list-item.png) no-repeat left center;
+								behavior: url(js/PIE.htc);
 								color: #e1e7dc;
 								display: block;
 								margin-bottom: 1.5em;
@@ -610,9 +625,9 @@ body {
 			position: relative;
 			.phone-number {
      			background: url(../img/phone-bg.png) no-repeat;
+     			behavior: url(js/PIE.htc);
 				color: #474849;
 				display: inline-block;
-
 				font-size: 1.64285714em;
 				font-weight: 300;
 				height: 2.56521739em;
@@ -647,6 +662,7 @@ body {
 			z-index: 1;
 			nav {
 				.logo {
+					behavior: url(js/PIE.htc);
 					@include box-shadow(0 0 5px rgba(0,0,0,.5));
 					display: inline-block;
 					float: left;
@@ -663,6 +679,7 @@ body {
 						line-height: 3.21428571em;
 						text-align: center;
 						width: 14.0714286em;
+						behavior: url(js/PIE.htc);
 						@include transition(background 0.3s ease-in-out);
 						&:hover {
 							background: url(../img/white-95.png);
@@ -675,6 +692,7 @@ body {
 					margin: 0;
 					padding: 0;
 					li {
+						behavior: url(js/PIE.htc);
 						@include box-shadow(0 0 5px rgba(0,0,0,.5));
 						float: left;
 						list-style: none;
@@ -684,6 +702,7 @@ body {
 						a {
 							background: url(../img/white-80.png);
 							background: rgba(255,255,255,.8);
+							behavior: url(js/PIE.htc);
 							color: #343434;
 							display: inline-block;
 							height: 6.42857143em;
@@ -730,6 +749,7 @@ body {
 	.navbar-header {
 		background: url(../img/white-80.png);
 		background: rgba(255,255,255,.8);
+		behavior: url(js/PIE.htc);
 		@include transition(background .3s ease-in-out);
 		&:hover {
 			background: url(../img/white-95.png);
@@ -741,6 +761,7 @@ body {
 			text-transform: uppercase;
 		}
 		.navbar-toggle {
+			behavior: url(js/PIE.htc);
 			@include transition(background .3s ease-in-out);
 			&:hover, &:focus {
 				background: url(../img/white-95.png);
@@ -756,10 +777,12 @@ body {
 					a {
 						background: url(../img/white-95.png);
 						background: rgba(255,255,255,.95);
+						behavior: url(js/PIE.htc);
 						@include box-shadow(0 2px 4px rgba(0,0,0,.3));
 					}
 					+ li {
 						a {
+							behavior: url(js/PIE.htc);
 							@include box-shadow(0 -2px 4px rgba(0,0,0,.3));
 						}
 					}
@@ -768,6 +791,7 @@ body {
 						a {
 							background: url(../img/white-80.png);
 							background: rgba(255,255,255,.8);
+							behavior: url(js/PIE.htc);
 							@include box-shadow(0 0 0 1px rgba(0,0,0,.3));
 							color: #555;
 							@include transition(background .3s ease-in-out);
@@ -787,6 +811,7 @@ body {
 				a {
 					background: url(../img/white-80.png);
 					background: rgba(255,255,255,.8);
+					behavior: url(js/PIE.htc);
 					@include box-shadow(0 0 0 1px rgba(0,0,0,.3));
 					color: #555;
 					@include transition(background .3s ease-in-out);
@@ -911,6 +936,7 @@ body {
 				}
 			}
 			&.footer {
+				behavior: url(js/PIE.htc);
 				@include gradient-horizontal-three-colors(#8d9c82, #a6b799, 50%, #8d9c82);
 				height: auto;
 				.container {
