@@ -31,8 +31,11 @@ body {
     padding: 0;
     width: 100%; }
     body .container-fluid.main {
+      -webkit-box-shadow: 0 0 10px black;
+      box-shadow: 0 0 10px black;
       min-height: 793px;
-      position: relative; }
+      position: relative;
+      z-index: 20; }
       body .container-fluid.main .banner {
         background: url(../img/girl-on-cliff-banner.jpg) no-repeat center center;
         background-size: cover;
@@ -142,7 +145,11 @@ body {
               margin: 0 auto; }
     body .container-fluid.pregnancy-care {
       background: url(../img/pregnancy-care-bg.png);
-      height: 300px; }
+      -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+      height: 300px;
+      position: relative;
+      z-index: 19; }
       body .container-fluid.pregnancy-care .container {
         height: 100%; }
         body .container-fluid.pregnancy-care .container h2, body .container-fluid.pregnancy-care .container h4 {
@@ -237,7 +244,8 @@ body {
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
       height: 246px;
       padding: 29px 0 6px 0;
-      position: relative; }
+      position: relative;
+      z-index: 18; }
       body .container-fluid.our-promise .col-md-3 {
         width: 290px; }
         body .container-fluid.our-promise .col-md-3 img {
@@ -265,7 +273,11 @@ body {
         width: 35px; }
     body .container-fluid.services {
       background: url(../img/services-bg.png);
-      height: 348px; }
+      -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      height: 348px;
+      position: relative;
+      z-index: 16; }
       body .container-fluid.services .container {
         height: 100%; }
         body .container-fluid.services .container .col-md-4 {
@@ -311,14 +323,19 @@ body {
       height: 100%;
       min-height: 100%;
       margin-top: 3.57143em;
-      position: relative; }
+      position: relative;
+      z-index: 2; }
       body .container-fluid.content .content-bg {
         background: url(../img/inpage-bg.png);
+        -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
         bottom: 0;
         height: 75.65923%;
         position: absolute;
         z-index: 0; }
       body .container-fluid.content .content-area {
+        -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
         display: table;
         position: relative;
         z-index: 1; }
@@ -420,7 +437,9 @@ body {
       background-image: linear-gradient(to right, #687360, #a6b799 50%, #687360);
       background-repeat: no-repeat;
       background-color: #a6b799;
-      height: 352px; }
+      height: 352px;
+      position: relative;
+      z-index: 10; }
       body .container-fluid.footer .container {
         height: 100%;
         padding: 1.42857em 0 2.35714em 0; }

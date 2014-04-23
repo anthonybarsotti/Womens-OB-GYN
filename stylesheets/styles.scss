@@ -45,8 +45,10 @@ body {
 		padding: 0;
 		width: 100%;
 		&.main {
+			@include box-shadow(0 0 10px rgba(0,0,0,1));
 			min-height: 793px;
 			position: relative;
+			z-index: 20;
 			.banner {
 				background: url(../img/girl-on-cliff-banner.jpg) no-repeat center center;
 				background-size: cover;
@@ -200,7 +202,10 @@ body {
 		}
 		&.pregnancy-care {
 			background: url(../img/pregnancy-care-bg.png);
+			@include box-shadow(0 0 5px rgba(0,0,0,.15));
 			height: 300px;
+			position: relative;
+			z-index: 19;
 			.container {
 				height: 100%;
 				h2, h4 {
@@ -305,6 +310,7 @@ body {
 			height: 246px;
 			padding: 29px 0 6px 0;
 			position: relative;
+			z-index: 18;
 			.col-md-3 {
 				width: 290px;
 				img {
@@ -339,7 +345,10 @@ body {
 		}
 		&.services {
 			background: url(../img/services-bg.png);
+			@include box-shadow(0 0 10px rgba(0,0,0,.2));
 			height: 348px;
+			position: relative;
+			z-index: 16;
 			.container {
 				height: 100%;
 				.col-md-4 {
@@ -390,14 +399,17 @@ body {
 			min-height: 100%;
 			margin-top: 3.57142857em;
 			position: relative;
+			z-index: 2;
 			.content-bg {
 				background: url(../img/inpage-bg.png);
+				@include box-shadow(0 0 40px rgba(0,0,0,.4));
 				bottom: 0;
 				height: 75.659229%;
 				position: absolute;
 				z-index: 0;
 			}
 			.content-area {
+				@include box-shadow(0 0 40px rgba(0,0,0,.4));
 				display: table;
 				position: relative;
 				z-index: 1;
@@ -514,6 +526,8 @@ body {
 		&.footer {
 			@include gradient-horizontal-three-colors(#687360, #a6b799, 50%, #687360);
 			height: 352px;
+			position: relative;
+			z-index: 10;
 			.container {
 				height: 100%;
 				padding: 1.42857143em 0 2.35714286em 0;
