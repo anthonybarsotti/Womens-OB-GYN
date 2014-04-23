@@ -590,4 +590,8 @@ body {
 
 @media (max-width: 480px) {
   body .container-fluid.banner {
-    height: 350px; } }
+    height: 350px; }
+  body .container-fluid.services {
+    padding: 0 0 2em 0; }
+    body .container-fluid.services .container {
+      padding: 0; } }

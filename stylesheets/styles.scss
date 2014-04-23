@@ -766,6 +766,12 @@ body {
 			&.banner {
 				height: 350px;
 			}
+			&.services {
+				padding: 0 0 2em 0;
+				.container {
+					padding: 0;
+				}
+			}
 		}
 	}
 }
