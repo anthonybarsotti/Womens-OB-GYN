@@ -299,6 +299,7 @@ body {
 			}
 		}
 		&.our-promise {
+			background: url(../img/our-promise-bg.png) repeat-y center top;
 			@include gradient-horizontal-three-colors(#96825f, #b69e74, 50%, #96825f);
 			@include box-shadow(0 2px 5px rgba(0,0,0,.15));
 			height: 246px;
